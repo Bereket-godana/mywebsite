@@ -1,0 +1,228 @@
+<html>
+<head><title>border</title>
+ <style>
+    body{
+        background: #101010;
+    }
+#skill-section{
+    color:white;
+    width:100%;
+    height:auto;
+    padding:80px 13px;
+}
+.header{
+   width:100%;
+   margin-bottom:30px;
+   display:grid;
+   place-items:center;
+   text-align:center;
+   font-size: 30;
+}
+.header h1{
+   margin-bottom:-5px;
+}
+.header h1 span{
+   color:orangered;
+}
+.skill-main{
+   width:100%;
+   display:grid;
+   grid-template-columns:repeat(2, 1fr);
+   grid-column-gap:50px;
+   grid-row-gap:20px;
+}
+.skill-main .skill-bar .info{
+   display:flex;
+   justify-content:space-between;
+   padding:0 10px;
+}
+.skill-bar .info .percent{
+   font-weight:bold;
+}
+.skill-bar .bar{
+   width:100%;
+   height:10px;
+   position:relative;
+   background-color:#cfcece;
+   border-radius: 25px;
+}
+.skill-bar .bar span{
+width:50%;
+height:100%;
+position:absolute;
+background-color:orangered;
+}
+.skill-bar .bar .html{
+width:85%;
+animation:html .9s;
+}
+@keyframes html{
+0%{
+width:0;
+}100%{
+width:85%;
+}
+}
+.skill-bar .bar .CSS{
+width:85%;
+animation:CSS .9s;
+}
+@keyframes CSS{
+0%{
+width:0;
+}100%{
+width:85%;
+}
+}
+.skill-bar .bar .Web{
+width:80%;
+animation:Web .9s;
+}
+@keyframes Web{
+0%{
+width:0;
+}100%{
+width:80%;
+}
+}
+.skill-bar .bar .graphic{
+width:80%;
+animation:graphic .9s;
+}
+@keyframes graphic{
+0%{
+width:0;
+}100%{
+width:80%;
+}
+}
+.skill-bar .bar .photo{
+width:90%;
+animation:photo .9s;
+}
+@keyframes photo{
+0%{
+width:0;
+}100%{
+width:90%;
+}
+}
+.skill-bar .bar .music{
+width:75%;
+animation:music .9s;
+}
+@keyframes music{
+0%{
+width:0;
+}100%{
+width:75%;
+}
+}
+.skill-bar .bar .video{
+width:70%;
+animation:video .9s;
+}
+@keyframes video{
+0%{
+width:0;
+}100%{
+width:70%;
+}
+}
+.skill-bar .bar .coding{
+width:65%;
+animation:coding .9s;
+}
+@keyframes coding{
+0%{
+width:0;
+}100%{
+width:65%;
+}
+}
+
+</style>
+</head>
+<body>
+    <section id="skill-section">
+        <div class="header">
+            <h1>My<span> Skills</span></h1>
+            <p>Here is my skills</p>
+        </div>
+        <div class="skill-main">
+           <div class="skill-bar">
+               <div class="info">
+                   <p>HTML</p>
+                   <p class="percent">85%</p>
+        </div>
+               <div class="bar">
+                   <span class="html"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>CSS</p>
+                   <p class="percent">85%</p>
+        </div>
+               <div class="bar">
+                   <span class="css"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>Web Design</p>
+                   <p class="percent">80%</p>
+        </div>
+               <div class="bar">
+                   <span class="web"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>Graphic Design</p>
+                   <p class="percent">80%</p>
+        </div>
+               <div class="bar">
+                   <span class="graphic"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>photography</p>
+                   <p class="percent">90%</p>
+        </div>
+               <div class="bar">
+                   <span class="photo"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>Music Composing</p>
+                   <p class="percent">75%</p>
+        </div>
+               <div class="bar">
+                   <span class="music"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+               <div class="info">
+                   <p>Video editing</p>
+                   <p class="percent">70%</p>
+        </div>
+               <div class="bar">
+                   <span class="video"></span>
+               </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Coding</p>
+                    <p class="percent">65%</p>
+         </div>
+                <div class="bar">
+                    <span class="coding"></span>
+                </div>
+             </div>
+        </div>
+    </section>     
+</body>
+</html>

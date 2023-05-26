@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'josefin sans', sans-serif;
+    font-
     box-sizing: border-box; 
 }
 .hero{
@@ -26,7 +26,7 @@
         cursor: pointer;
     }
     span{
-        color: #f9004d;
+        color: orangered;
     }
     nav ul li{
         list-style-type:none;
@@ -40,11 +40,11 @@
         text-transform: capitalize;
     }
     nav ul li a:hover{
-        color: #f9004d;
+        color: orangered;
     transition: .4s;
     }
     .btn{
-        background-color: #f9004d;
+        background-color: orangered;
         color:white;
         text-decoration:none;
         border: 2px solid transparent;
@@ -86,7 +86,7 @@
          display: inline-block;
          width: 100%;
          padding:14px 130px 14px 15px;
-         border:2px solid #f9004d;
+         border:2px solid orangered;
          outline: none;
          border-radius: 30px;
     }
@@ -97,7 +97,7 @@
         border: none;
         padding:10px 30px;
         border-radius:30px;
-        background-color:#f9004d;
+        background-color:orangered;
         color: white;
         box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
         top: 6px;
@@ -145,7 +145,7 @@
         margin-bottom: 45px;
     }
     button{
-        background-color: #f9004d;
+        background-color: orangered;
         color: white;
         text-decoration: none;
         border:2px solid transparent;
@@ -156,7 +156,7 @@
     }
     button:hover{
         background-color: transparent;
-        border: 2px solid #f9004d;
+        border: 2px solid orangered;
         cursor: pointer;
     }
 
@@ -194,7 +194,7 @@
         display: block;
         text-align: center;
         margin: 25px 0px;
-        color: #f9004d;
+        color: orangered;
     }
     h5{
         color:white;
@@ -208,7 +208,7 @@
         margin-bottom: 25px;
     }
     .card .button{
-        background-color: #f9004d;
+        background-color: orangered;
         color: white;
         text-decoration: none;
         border:2px solid transparent;
@@ -219,7 +219,7 @@
     }
     .card .button:hover{
         background-color: transparent;
-        border: 2px solid #f9004d;
+        border: 2px solid orangered;
         cursor: pointer;
     }
     .contact-me{
@@ -238,7 +238,7 @@
         margin-bottom:25px;      
     }
     .contact-me .button-two{
-        background-color: #f9004d;
+        background-color: orangered;
         color: white;
         text-decoration: none;
         border:2px solid transparent;
@@ -249,7 +249,7 @@
     }
     .contact-me .button-two:hover{
         background-color: transparent;
-        border: 2px solid #f9004d;
+        border: 2px solid orangered;
         cursor: pointer;
     }
     footer{
@@ -284,7 +284,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #f9004d;
+        background: orangered;
         border-radius: 50%;
         margin: 22px 10px;
         color: white;
@@ -296,7 +296,7 @@
         transition: .3s;
     }
     .end{
-        color: #f9004d;
+        color: orangered;
         position:absolute;
         bottom: 35px;
         font-size: 14px;
@@ -350,7 +350,7 @@
     }
     .contact-form form .btn{
         display: inline-block;
-        background: #f9004d;
+        background: orangered;
         font-size: 1.1rem;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -362,7 +362,7 @@
         cursor: pointer;
     }
     .contact-form form .btn:hover{
-        border: 2px solid #f9004d;
+        border: 2px solid orangered;
         background: transparent;
         transform: scale(1.1);
     }
